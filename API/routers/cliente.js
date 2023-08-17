@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const router = express.Router();
 router.use(cors());
-const conectarMongodb = require('../dataBase/mongodb');
+const conectarMongodb = require('.. /dataBase/mongodb');
 
 const userSchema = new mongoose.Schema({
   nomeUser: String,
