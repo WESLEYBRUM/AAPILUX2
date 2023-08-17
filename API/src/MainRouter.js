@@ -21,7 +21,7 @@ router.use(login)
 router.get("/", (req,res)=>{
   try{
   res.status(200).send({
-   status:"SUCESSO"
+   status:"SUCESdSO"
     
   })
   }
